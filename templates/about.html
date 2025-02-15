@@ -2,7 +2,8 @@
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8"> 
-    <title>My Website - About</title> 
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
 </head> 
 <body> 
     <h1>Jahi Bennett</h1> 
@@ -11,6 +12,7 @@
         I attended Vaz Preparatory School where I picked up on the beginner level of social skills which further helped in my progression 
         to high school. This said high school being the prestigious Wolmers' Boys School which further inspired me to pursue my dreams of 
         being a successful person in cybersecurity. Leading me to pursue my major at the University of the West Indies. I have a plan to 
-        successfully start my own business that aligns itself with my ideal future job.</p> 
+        successfully start my own business that aligns itself with my ideal future job.</p>
+    <img src="{{ url_for('static', filename='madness.jpg') }}" alt="My Photo"/>
 </body> 
 </html>
